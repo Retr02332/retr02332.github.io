@@ -1,0 +1,395 @@
+h1,
+h2,
+h3{
+    font-family: 'Antic Slab', serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+}
+
+code{
+    /*Efectos css para la code etiqueta*/
+    /*background-color: #3af521;*/
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1327px;
+    background-color: #2FA7CA;
+}
+
+.header h2{
+    /*display: flex;*/
+    align-items: center;
+    width: inherit;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.header-logo-leftContainer{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-left{
+    margin-right: 5px;
+}
+
+.menu{
+    margin-right: 10px;
+    height: inherit;
+}
+
+.menu ol{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.menu ol li{
+    height: inherit;
+}
+
+.menu a{
+    /*equivalente a .link*/
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header-logo-rightWrapper{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    /*equivalente a .menu a*/
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    padding: 10px;
+}
+
+.Descripcion{
+    border: 3px solid #43ABEA;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: #2FA7CA;*/
+}
+
+.Descubrimiento{
+    border: 3px solid #43ABEA;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: #2FA7CA;*/
+}
+
+.intereses-container-articles{
+    display: flex;
+}
+
+.security{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 305px;
+    height: 370px;
+    background-color:#D0FBFF;
+    margin: 10px;
+    /*flex-shrink: 0;*/
+}
+
+.security-details{
+    margin: 20px;
+    margin-top: -60px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 185px;
+}
+
+.security figure{
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+
+.security img{
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.security-description{
+    text-align: left;
+}
+
+.security-url{
+    text-decoration: none;
+    color: #2FA7CA;
+    border: 3px solid #2FA7CA;
+    padding: 5px 15px;
+}
+
+.network{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 305px;
+    height: 370px;
+    background-color:#D0FBFF;
+    margin: 10px;
+    /*flex-shrink: 0;*/
+}
+
+.network-details{
+    margin: 20px;
+    margin-top: -60px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 186px;
+}
+
+.network figure{
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+
+.network img{
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.network-description{
+    text-align: left;
+}
+
+.network-url{
+    text-decoration: none;
+    color: #2FA7CA;
+    border: 3px solid #2FA7CA;
+    padding: 5px 15px;
+}
+
+.design{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 305px;
+    height: 370px;
+    background-color:#D0FBFF;
+    margin: 10px;
+}
+
+.design-details{
+    margin: 20px;
+    margin-top: -60px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 186px;
+}
+
+.design figure{
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+
+.design img{
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.design-description{
+    text-align: left;
+}
+
+.design-url{
+    text-decoration: none;
+    color: #2FA7CA;
+    border: 3px solid #2FA7CA;
+    padding: 5px 15px;
+}
+
+.malware{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 305px;
+    height: 370px;
+    background-color:#D0FBFF;
+    margin: 10px;
+}
+
+.malware-details{
+    margin: 20px;
+    margin-top: -60px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    height: 186px;
+}
+
+.malware figure{
+    margin: 0px;
+    /*overflow: hidden;*/
+}
+
+.malware img{
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.malware-description{
+    text-align: left;
+}
+
+.malware-url{
+    text-decoration: none;
+    color: #2FA7CA;
+    border: 3px solid #2FA7CA;
+    padding: 5px 15px;
+}
+
+.Attack{
+    border: 3px solid #43ABEA;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: #2FA7CA;*/
+}
+
+.python{
+    /*display: flex;*/
+    /*flex-shrink: 0px;*/
+    /*flex-wrap: wrap;*/
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #43ABEA;
+    border-radius: 5px;
+    background-color: #86C3E4;
+}
+
+.python-travel{
+    display: flex;
+    align-items: center;
+}
+
+.python-travel p{
+    padding-left: 5px;
+}
+
+.hacking{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #43ABEA;
+    border-radius: 5px;
+    background-color: #86C3E4;
+}
+
+.hacking-travel{
+    display: flex;
+    align-items: center;
+}
+
+.hacking-travel p{
+    padding-left: 5px;
+}
+
+.Found_Flag{
+    border: 3px solid #43ABEA;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: #2FA7CA;*/
+}
+
+.proyectos ul li{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 800;
+}
+
+.Send_Flag{
+    border: 3px solid #43ABEA;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    /*background-color: #2FA7CA;*/
+}
+
+.footer{
+    background-color: #2FA7CA;
+    height: 100px;
+}
+
+.footer h2{
+    /*display: flex;*/
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.contact{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logoContainer{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+    align-items: center;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.social-link.github{
+    background-image: url("../../../src/github.svg");
+    background-size: 50px 50px;
+}
+
+.social-link.linkedin{
+    background-image: url("../../../src/linkedin.svg");
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url("../../../src/facebook.svg");
+    background-size: 50px 50px;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-between;
+}
