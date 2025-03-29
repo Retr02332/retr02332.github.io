@@ -1,17 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Telegram Instant View</title>
-</head>
-<body>
-    <!-- Contenedor principal -->
-    <div id="dev_page_content_wrap">
-        <h1>Test Page</h1>
-
-        <!-- Enlace válido -->
-        <p><a href="https://example.com">Link válido</a></p>
-    </div>
-</body>
+	<head>
+		<title>Un poco sobre mi</title>
+		<link rel="shortcut icon" href="src/favicon.png" type="image/png">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<header class="header">
+			<figure class="header-logo-leftContainer">
+				<img class="header-logo-left" src="src/logo-ciberseguridad.png" width="70">
+				<h2>Retr0</h2>
+			</figure>
+			<nav class="menu">
+				<ol>
+					<li><a class="link" href="#presentacion_">¿Quien soy?</a></li>
+					<li><a class="link" href="#intereses_">Mis Intereses</a></li>
+					<li><a class="link" href="#recorrido_">Mi Recorrido</a></li>
+					<li><a class="link" href="#proyectos_">Mis Proyectos</a></li>
+					<li><a class="link" href="writeups/atenea/arcade-protected.html" target="_blank">Mis Write-ups</a></li>
+					<figure class="logo-rightWrapper">
+						<img class="logo-right" src="src/logo-ciberseguridad.png" width="70">
+					</figure>
+				</ol>
+			</nav>
+		</header>
+		<section class="hero">
+			<h1>Hola, Soy retr0 y he venido a contarte un poco sobre mi.</h1>
+		</section>
+		<section class="presentacion" id="presentacion_">
+			<h2>¿Quien soy?</h2>
+			<p>Mi nombre es Carlos Andrés Bello, soy de cali y actualmente soy estudiante de 
+				tecnologia en sistemas en la universidad del valle.
+			</p>
+		</section>
+		<section class="intereses" id="intereses_">
+			<h2>Mis intereses</h2>
+			<p>Soy un autodidacta y apasionado por la informatica. Me inclino hacia temas
+				relacionados con la seguridad informatica, redes, desarrollo web y desarrollo
+				de malware.
+			</p>
+			<div class="intereses-container-articles">
+				<article class="security">
+					<figure class="security-imageContainer">
+						<img class="security-image" src="src/seguridad.jpg">
+					</figure>
+					<div class="security-details">
+						<h3 class="security-title">Seguridad informatica</h3>
+						<p class="security-description">
+							La seguridad informática es una disciplina que se encarga de proteger la 
+							integridad y la privacidad de la información almacenada en un sistema informático.
+						</p>
+						<a href="barberoooooooooo://jajajajaja.com" class="security-url" target="_blank">Ver</a>
+					</div>
+				</article>
+				<article class="network">
+					<figure class="network-imageContainer">
+						<img class="network-image" src="src/redes.png">
+					</figure>
+					<div class="network-details">
+						<h3 class="network-title">Redes de comunicación</h3>
+						<p class="network-description">
+							Una red de comunicacion es un conjunto de nodos interconectados 
+							a través de un medio, que intercambian información por medio de 
+							protocolos.
+						</p>
+						<a href="https://es.wikipedia.org/wiki/Red_de_telecomunicaci%C3%B3n" class="network-url" target="_blank">Ver</a>
+					</div>
+				</article>
+				<article class="design">
+					<figure class="design-imageContainer">
+						<img class="design-image" src="src/design.jpg">
+					</figure>
+					<div class="design-details">
+						<h3 class="design-title">Desarrollo web</h3>
+						<p class="design-description">
+							Desarrollo web significa crear y mantener sitios web con una 
+							apariencia impecable, y un buen desempeño para permitir la mejor 
+							experiencia de usuario.
+						</p>
+						<a href="https://es.wikipedia.org/wiki/Desarrollo_web" class="design-url" target="_blank">Ver</a>
+					</div>
+				</article>
+				<article class="malware">
+					<figure class="malware-imageContainer">
+						<img class="malware-image" src="src/malware.png">
+					</figure>
+					<div class="malware-details">
+						<h3 class="malware-title">Desarrollo de malware</h3>
+						<p class="malware-description">
+							Un malware es un software que se ejecuta sin la autorización del propietario 
+							y realiza funciones en el sistema que son perjudiciales para el usuario y/o sistema.
+						</p>
+						<a href="https://es.wikipedia.org/wiki/Malware" class="malware-url" target="_blank">Ver</a>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section class="recorrido" id="recorrido_">
+			<h2>Mi recorrido</h2>
+			<div class="python">
+				<h3>Python (mi primer lenguaje de programación)</h3>
+				<div class="python-travel">
+					<img src="src/python.png" width="200px" alt="Lenguaje de programación python">
+					<p>A finales del año 2018, inicie con el lenguaje de programación python.
+						Mi objetivo era aprender a programar primero antes de iniciar con la
+						seguridad informatica, ya que esto permite ampliar a mayor medida la
+						logica y la forma de ver el mundo. Además la mayoria de herramientas de
+						seguridad informatica se desarrollan con python, nada mal para iniciar.
+					</p>
+				</div>
+			</div>
+			<div class="hacking">
+				<h3>Hacking etico (Un mundo lleno de posibilidades)</h3>
+				<div class="hacking-travel">
+					<img class="image-hacking" src="src/Ethical-Hacking.webp" height="200px" width="250" alt="Hacking etico">
+					<p>Aproximadamente, a los 8 meses de haber trabajado fuerte con python, me introduje
+						un poco en la seguridad informatica. Cosas basicas pero muy importantes como
+						el manejo de la terminal, terminologias, y algunos aspectos basicos como
+						¿que es un hacker?, las fases de un pentesting, etc. Todo lo teorico.
+						En ese momento y despues de practicar un poco con la terminal y de investigar
+						mas sobre la parte teorica introductoria de la seguridad informatica, preferi
+						parar mis estudios en este area, hasta poder ver un poco sobre las redes
+						de comunicación.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="proyectos" id="proyectos_">
+			<h2>Mis proyectos</h2>
+			<p>A lo largo de mi formación autodidacta he desarrollado multiples aplicaciones.
+				Entre ellas estan:
+				<ul>
+					<li>Una herramienta para encontrar vulnerabilidades y referencias en base
+						a una direccion de red en formato CIDR.</li>
+					<li>Un Bot para administrar los usuarios de un grupo en telegram.</li>
+					<li>Un POC de una backdoor para sistemas windows.</li>
+					<li>Un POC de la estructura inicial de un ransomware, etc.</li>
+				</ul>
+			</p>
+		</section>
+		<footer class="footer">
+			<div class="contact">
+				<figure class="footer-logoContainer">
+					<img class="footer-logo" src="src/logo-ciberseguridad.png" width="70">
+					<h2>Retr0</h2>
+				</figure>
+				<address class="social">
+					<a href="https://github.com/retr02332" target="_blank" class="social-link github"></a>
+					<a href="https://www.linkedin.com/in/carlos-andr%C3%A9s-bello-198a5a1a7/" target="_blank" class="social-link linkedin"></a>
+					<a href="https://www.facebook.com/carlosandres.bello.56" target="_blank" class="social-link facebook"></a>
+				</address>
+			</div>
+			<div class="autor">
+				<p>Made with love by Retr0 (Carlos Andrés Bello Ramírez)</p>
+				<p>Learn, Imagine and Create.</p>
+			</div>
+		</footer>
+	</body>
 </html>
